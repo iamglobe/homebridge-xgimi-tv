@@ -1,15 +1,15 @@
 {
-  "displayName": "Homebridge XGimiTv Plugin",
-  "name": "homebridge-xgimi-tv",
+  "displayName": "Homebridge XGimiTv Plugin1",
+  "name": "homebridge-xgimi-tv1",
   "version": "1.3.5",
   "description": "A plugin on homebridge to bring XGimi Smart Projector to HomeKit.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fantasytu/homebridge-xgimi-tv.git"
+    "url": "git://github.com/iamglobe/homebridge-xgimi-tv.git"
   },
   "bugs": {
-    "url": "https://github.com/fantasytu/homebridge-xgimi-tv/issues"
+    "url": "https://github.com/iamglobe/homebridge-xgimi-tv/issues"
   },
   "engines": {
     "node": ">=10.17.0",
