@@ -90,12 +90,12 @@ export class XGimiTeleVisionAccessory {
         .on('set', this.setPower.bind(this));
 
       // handle input source changes
-      this.tvService.getCharacteristic(this.Characteristic.ActiveIdentifier)
-        .on('set', this.setInputResource.bind(this));
+      //this.tvService.getCharacteristic(this.Characteristic.ActiveIdentifier)
+      //  .on('set', this.setInputResource.bind(this));
 
       // handle remote control input
-      this.tvService.getCharacteristic(this.Characteristic.RemoteKey)
-        .on('set', this.setRemoteKey.bind(this));
+     // this.tvService.getCharacteristic(this.Characteristic.RemoteKey)
+     //   .on('set', this.setRemoteKey.bind(this));
 
       // this.tvService.getCharacteristic(this.Characteristic.PowerModeSelection)
       //   .on('set', this.setRemoteKey.bind(this, 'SETTINGS'));
