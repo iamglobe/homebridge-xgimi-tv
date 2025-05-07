@@ -168,7 +168,7 @@ export class XGimiTeleVisionAccessory {
         const currentPowerStatus = pingResult.alive ? 1 : 0;
         this.tvService.updateCharacteristic(this.Characteristic.Active, currentPowerStatus);
       } catch (error) {
-        this.log.warn(error.message);
+        this.log.warn('ping fail');
       }
     }
 
@@ -280,7 +280,7 @@ export class XGimiTeleVisionAccessory {
             (this.accessory.getService(this.Service.Television) as any).updateCharacteristic(this.Characteristic.Active, this.Characteristic.Active.INACTIVE);
           }
         } catch (error) {
-            this.log.warn(error.message);
+            this.log.warn('ping fail');
         }
 
     }
