@@ -17,7 +17,12 @@ A plugin on [Homebridge](https://github.com/nfarina/homebridge) to bring **XGimi
 ## Installation
 
 ```
-sudo npm i -g homebridge-xgimi-tv@latest
+homebridge ui console:
+cd node_modules/
+root@dockerhome:/var/lib/homebridge/node_modules $ git clone https://github.com/iamglobe/homebridge-xgimi-tv.git
+root@dockerhome:/var/lib/homebridge/node_modules $ cd homebridge-xgimi-tv/
+root@dockerhome:/var/lib/homebridge/node_modules/homebridge-xgimi-tv $ npm install
+root@dockerhome:/var/lib/homebridge/node_modules/homebridge-xgimi-tv $ npm run build
 ```
 
 ## Configuration
